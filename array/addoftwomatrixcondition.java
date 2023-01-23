@@ -41,9 +41,11 @@ public class addoftwomatrixcondition {
                 k++;
             }
         }
-        for (int i = 0; i < k; i++) {
-            System.out.print(ans[i] + " ");
+        // for (int i = 0; i < k; i++) {
+        // System.out.print(ans[i] + " ");
+        // }
+        for (int i : ans) {
+            System.out.print(i + " ");
         }
-
     }
 }

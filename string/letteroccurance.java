@@ -16,11 +16,14 @@ public class letteroccurance {
         for (int i = 0; i < n; i++) {
             char ch = str.charAt(i);
             int index = ch - 'a';
-            if (res[index] == false) {
+            // if (res[index] == false) {
+            // System.out.println(ch + "=" + freq[index]);
+            // res[index] = true;
+            // }
+            if (freq[index] != 0) {
                 System.out.println(ch + "=" + freq[index]);
-                res[index] = true;
+                freq[index] = 0;
             }
-
         }
     }
 
